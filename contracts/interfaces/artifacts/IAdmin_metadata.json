@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					}
+				],
+				"name": "isAdmin",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/interfaces/IAdmin.sol": "IAdmin"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/interfaces/IAdmin.sol": {
+			"keccak256": "0xb313c9c082d95de6c146eaa2234af6000175e441b826b519eb9cd85ee448212b",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://e3df0dbaa991e031e5e2efe49310222d11a8f902db5231080334c5ce5a646161",
+				"dweb:/ipfs/QmWHU4bv1V8duXjFavWiUf2fkv5qu9TMeKwGs3ed817eCV"
+			]
+		}
+	},
+	"version": 1
+}

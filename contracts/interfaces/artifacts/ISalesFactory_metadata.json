@@ -1,0 +1,83 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "sale",
+						"type": "address"
+					}
+				],
+				"name": "isSaleCreatedThroughFactory",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "saleOwner",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "saleToken",
+						"type": "address"
+					}
+				],
+				"name": "setSaleOwnerAndToken",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/interfaces/ISalesFactory.sol": "ISalesFactory"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/interfaces/ISalesFactory.sol": {
+			"keccak256": "0xe444263341122cf6ec5e92667c6ac7e1e36a4d3c6409e8764f25416db47116ff",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://f2eec745c558f52ce7571866a2eb513974af3cba367e1457943bf996a9fd7012",
+				"dweb:/ipfs/QmWXGvD8XWZaMhETkuVwSg5DMDyJyKbGTATQBAhBKSZ6Zo"
+			]
+		}
+	},
+	"version": 1
+}

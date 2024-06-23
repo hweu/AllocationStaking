@@ -1,0 +1,75 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"goerli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"linkReferences": {},
+			"object": "60556032600b8282823980515f1a607314602657634e487b7160e01b5f525f60045260245ffd5b305f52607381538281f3fe730000000000000000000000000000000000000000301460806040525f80fdfea26469706673582212208814a7dc6a88544d74c3e3bdb14393435f4376358c322a65053d518a1bde196164736f6c63430008180033",
+			"opcodes": "PUSH1 0x55 PUSH1 0x32 PUSH1 0xB DUP3 DUP3 DUP3 CODECOPY DUP1 MLOAD PUSH0 BYTE PUSH1 0x73 EQ PUSH1 0x26 JUMPI PUSH4 0x4E487B71 PUSH1 0xE0 SHL PUSH0 MSTORE PUSH0 PUSH1 0x4 MSTORE PUSH1 0x24 PUSH0 REVERT JUMPDEST ADDRESS PUSH0 MSTORE PUSH1 0x73 DUP2 MSTORE8 DUP3 DUP2 RETURN INVALID PUSH20 0x0 ADDRESS EQ PUSH1 0x80 PUSH1 0x40 MSTORE PUSH0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 DUP9 EQ 0xA7 0xDC PUSH11 0x88544D74C3E3BDB1439343 PUSH0 NUMBER PUSH23 0x358C322A65053D518A1BDE196164736F6C634300081800 CALLER ",
+			"sourceMap": "629:6594:0:-:0;;;;;;;;;;;;;;;-1:-1:-1;;;629:6594:0;;;;;;;;;;;;;;;;;"
+		},
+		"deployedBytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"immutableReferences": {},
+			"linkReferences": {},
+			"object": "730000000000000000000000000000000000000000301460806040525f80fdfea26469706673582212208814a7dc6a88544d74c3e3bdb14393435f4376358c322a65053d518a1bde196164736f6c63430008180033",
+			"opcodes": "PUSH20 0x0 ADDRESS EQ PUSH1 0x80 PUSH1 0x40 MSTORE PUSH0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 DUP9 EQ 0xA7 0xDC PUSH11 0x88544D74C3E3BDB1439343 PUSH0 NUMBER PUSH23 0x358C322A65053D518A1BDE196164736F6C634300081800 CALLER ",
+			"sourceMap": "629:6594:0:-:0;;;;;;;;"
+		},
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "17000",
+				"executionCost": "96",
+				"totalCost": "17096"
+			},
+			"internal": {
+				"add(uint256,uint256)": "infinite",
+				"div(uint256,uint256)": "infinite",
+				"div(uint256,uint256,string memory)": "infinite",
+				"mod(uint256,uint256)": "infinite",
+				"mod(uint256,uint256,string memory)": "infinite",
+				"mul(uint256,uint256)": "infinite",
+				"sub(uint256,uint256)": "infinite",
+				"sub(uint256,uint256,string memory)": "infinite",
+				"tryAdd(uint256,uint256)": "infinite",
+				"tryDiv(uint256,uint256)": "infinite",
+				"tryMod(uint256,uint256)": "infinite",
+				"tryMul(uint256,uint256)": "infinite",
+				"trySub(uint256,uint256)": "infinite"
+			}
+		},
+		"methodIdentifiers": {}
+	},
+	"abi": []
+}

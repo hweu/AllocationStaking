@@ -1,0 +1,93 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_pid",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "_user",
+						"type": "address"
+					}
+				],
+				"name": "deposited",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_pid",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "_user",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_tokensUnlockTime",
+						"type": "uint256"
+					}
+				],
+				"name": "setTokensUnlockTime",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/interfaces/IAllocationStaking.sol": "IAllocationStaking"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/interfaces/IAllocationStaking.sol": {
+			"keccak256": "0xd9f3a33dc9a72a803a92350703053b1cbb278b1d737a1a51ed1cbd5ecaf5335e",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://8f6733fd64af25b53b963a227347829fa9b8fbfd4b4069e091b8321956a94ee7",
+				"dweb:/ipfs/QmcGjxEeb9sNKwT5Kgs9vyh4wn6ARNeGy2tsTW33EdGRRu"
+			]
+		}
+	},
+	"version": 1
+}
