@@ -11,8 +11,8 @@ REPORT_GAS=true npx hardhat test
 npx hardhat node
 npx hardhat ignition deploy ./ignition/modules/Lock.js
 ```
-技术依赖：OpenZeppelin
+技术依赖：OpenZeppelin、hardhat、ethers
 
   OpenZeppelin库提供了一些安全的合约实现，如ERC20、SafeMath等。
 该项目是一个基于以太坊的智能合约，主要用于管理和分发基于用户质押的流动性证明(LP)代币的ERC20奖励。该合约允许用户存入LP代币，并根据质押的数量和时间来计算和分发ERC20类型的奖励。
-包含用户信息（UserInfo）、池子信息结构（PoolInfo）、销售(sale)、销售工厂(SalesFactory)、admin和Token
+包含用户信息（UserInfo）、池子信息结构（PoolInfo）、销售(sale)、销售工厂(SalesFactory)、admin和Token。使用ethers.js library编写测试案例。
